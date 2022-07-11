@@ -1,0 +1,20 @@
+const addUser = require("./addUser"),
+  getUserData = require("./getUserData"),
+  changeUserData = require("./changeUserData"),
+  getUsers = require("./getUsers"),
+  deleteUser = require("./deleteUser"),
+  createMessage = require("./createMessage"),
+  loginUser = require("./loginUser"),
+  logoutUser = require("./logoutUser"),
+  getDocuments = require("./getDocuments");
+module.exports = {
+  addUser,
+  getUserData,
+  changeUserData,
+  getUsers,
+  deleteUser,
+  createMessage,
+  loginUser,
+  logoutUser,
+  getDocuments,
+};
